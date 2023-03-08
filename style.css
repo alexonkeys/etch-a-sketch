@@ -12,7 +12,7 @@ body {
     grid-template-rows: repeat(16, 20px);
 }
 
-[id*="grid-item"] {
+.grid-item {
     width: 20px;
     height: 20px;
     box-sizing: border-box;
