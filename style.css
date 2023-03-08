@@ -2,7 +2,7 @@ body {
     background-color: aqua;
 }
 
-#main-container {
+#grid-container {
     background-color: white;
     display: grid;
 }
