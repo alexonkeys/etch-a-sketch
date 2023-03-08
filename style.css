@@ -8,6 +8,8 @@ body {
 
 #grid-container {
     display: grid;
+    max-height: 960px;
+    max-width: 960px;
     grid-template-columns: repeat(16, 20px);
     grid-template-rows: repeat(16, 20px);
 }
