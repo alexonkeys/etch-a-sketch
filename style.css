@@ -8,3 +8,8 @@ body {
     grid-template-columns: repeat(16, 1fr);
     grid-template-rows: repeat(16, 1fr);
 }
+
+[id*="grid-item"] {
+    width: 20px;
+    height: 20px;
+}

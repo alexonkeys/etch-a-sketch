@@ -5,7 +5,5 @@ for (let i=1; i<=256; i++) {
     gridItem.setAttribute('id', `grid-item-${i}`);
     gridContainer.appendChild(gridItem);
     gridItem.style.backgroundColor = 'white';
-    gridItem.textContent = 'hello';
-
 }
 
