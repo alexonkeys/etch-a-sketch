@@ -22,13 +22,14 @@ body {
     background-color: white;
 }
 
-.slidecontainer {
-    max-width: 600px; /* Width of the outside container */
+.slide-container {
+    max-width: 600px;
     align-self: center;
   }
   
-  /* The slider itself */
+
 .slider {
+    margin-top: 40px;
     -webkit-appearance: none;  /* Override default CSS styles */
     appearance: none;
     max-width: 600px; /* Specified height */
