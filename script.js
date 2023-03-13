@@ -23,7 +23,13 @@ slider.addEventListener('input', () => {
     while (gridContainer.firstChild){
         gridContainer.removeChild(gridContainer.firstChild);
     }
-    sliderValue.textContent = `${slider.value} x ${slider.value}`;
+    gridContainer.style.gridTemplateColumns = `repeat(${slider.value}, ${320/slider.value}px)`;
+    gridContainer.style.gridTemplateRows = `repeat(${slider.value}, ${320/slider.value}px)`;
     const gridSize = slider.value ** 2;
-    console.log(gridSize);
+    for (let i=1; i<=gridSize; i++) {
+        const gridItem = document.createElement('div');
+        gridItem.setAttribute('class', 'grid-item');
+        gridContainer.appendChild(gridItem);
+    }
+    sliderValue.textContent = `${slider.value} x ${slider.value}`;
   });
