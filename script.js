@@ -30,6 +30,10 @@ slider.addEventListener('input', () => {
         const gridItem = document.createElement('div');
         gridItem.setAttribute('class', 'grid-item');
         gridContainer.appendChild(gridItem);
+
+        gridItem.addEventListener('mouseover', () => {
+            gridItem.style.backgroundColor = 'black';
+          });
     }
     sliderValue.textContent = `${slider.value} x ${slider.value}`;
   });
