@@ -19,8 +19,8 @@ gridItems.forEach((gridItem) => {
     });
 });
 
-slider.addEventListener('input', () => {
+/*slider.addEventListener('input', () => {
     sliderValue.textContent = `${slider.value} x ${slider.value}`;
     const gridSize = slider.value ** 2;
     console.log(gridSize);
-  });
+  });*/
